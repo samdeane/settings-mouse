@@ -1,0 +1,10 @@
+{
+    "install": [
+        ["link", "imwheelrc", "~/.imwheelrc"],
+        ["link", "interactive", "~/.local/share/bash-hooks/mouse"]
+    ],
+    "remove": [
+        ["unlink", "imwheelrc", "~/.imwheelrc"]
+        ["unlink", "interactive", "~/.local/share/bash-hooks/mouse"]
+    ]
+}

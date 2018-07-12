@@ -1,0 +1,4 @@
+# send event to the window manager when in the root window...
+".*"
+None,	Thumb1,	Super_R|Up
+None,	Thumb2,	Super_R|Down
