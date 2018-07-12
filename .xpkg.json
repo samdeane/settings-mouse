@@ -1,4 +1,8 @@
 {
+    "links": {
+        "imwheelrc": "~/.imwheelrc",
+        "interactive.sh": "~/.local/share/bash-hooks/interactive/mouse"
+    },
     "install": [
         ["link", "imwheelrc", "~/.imwheelrc"],
         ["link", "interactive.sh", "~/.local/share/bash-hooks/interactive/mouse"]
@@ -6,5 +10,8 @@
     "remove": [
         ["unlink", "imwheelrc", "~/.imwheelrc"],
         ["unlink", "interactive.sh", "~/.local/share/bash-hooks/interactive/mouse"]
+    ],
+    "dependencies": [
+        "elegantchaos/bash-hooks"
     ]
 }
