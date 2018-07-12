@@ -2,3 +2,5 @@
 ".*"
 None,	Thumb1,	Super_R|Up
 None,	Thumb2,	Super_R|Down
+Shift_L,  Thumb1, Super_R|Shift_L|Up
+Shift_L,  Thumb2, Super_R|Shift_L|Down
